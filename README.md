@@ -45,10 +45,15 @@ Esta aplicación aprovecha varias herramientas y tecnologias clave como:
    **STAGE**=PROD
    **SYNCRONIZE**=false
 
-#### Contenedores - Desarrollo/Producción
+#### Contenedores - Desarrollo
 
-6. Levantar los contenedores mediante el comando:
+1. Levantar los contenedores mediante el comando:
    `docker compose up -d build`
+
+#### Contenedores - Producción
+
+1. Levantar los contenedores mediante el comando:
+   `docker compose -f docker-compose.prod.yml up -d --build`
 
 #### API REST
 
