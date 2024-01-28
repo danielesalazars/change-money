@@ -10,9 +10,9 @@ Este proyecto esta desarrollado en** NodeJS** y utiliza el **Framework NestJS**.
 Esta aplicación aprovecha varias herramientas y tecnologias clave como:
 
 - **Fastify:** Servidor HTTP
-- **TypeORM: ** ORM(Mapeo Objeto-Relacional).
+- **TypeORM:** ORM(Mapeo Objeto-Relacional).
 - **PostgreSQL:** Gestor de Base de datos
-- **PgAdmin: ** Herramienta de administración de Base de datos
+- **PgAdmin:** Herramienta de administración de Base de datos
 - **JWT:** Generador de Token de autenticación
 - **Swagger:** Documentación de API RESTFull
 
