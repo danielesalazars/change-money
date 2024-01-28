@@ -8,10 +8,10 @@ COPY . .
 CMD ["npm", "run", "start"]
 
 # Etapa de producción
-FROM node:20.11.0-alpine3.19 as prod
-WORKDIR /app
-COPY package.json ./
-COPY ./dist ./
-RUN npm install --only=production
-COPY .env .
-CMD ["npm", "run", "start:prod"]
+# FROM node:20.11.0-alpine3.19 as prod
+# WORKDIR /app
+# COPY package.json ./
+# RUN npm install --only=production
+# COPY .env .
+# COPY ./dist ./
+# CMD ["npm", "run", "start:prod"]
