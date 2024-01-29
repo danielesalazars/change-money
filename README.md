@@ -6,7 +6,7 @@
 
 #### Descripción:
 
-Este proyecto esta desarrollado en** NodeJS** y utiliza el **Framework NestJS**.
+Este proyecto esta desarrollado en **NodeJS** y utiliza el **Framework NestJS**.
 Esta aplicación aprovecha varias herramientas y tecnologias clave como:
 
 - **Fastify:** Servidor HTTP
@@ -41,18 +41,18 @@ Esta aplicación aprovecha varias herramientas y tecnologias clave como:
 
 #### Ambiente Producción
 
-1. En el archivo `.env` cambiar las variables:
+1. En el archivo `.env` cambiar las variables:<br>
    - **STAGE**=PROD
    - **SYNCRONIZE**=false
 
 #### Contenedores - Desarrollo
 
-1. Levantar los contenedores mediante el comando:
+1. Levantar los contenedores mediante el comando:<br>
    `docker compose up -d build`
 
 #### Contenedores - Producción
 
-1. Levantar los contenedores mediante el comando:
+1. Levantar los contenedores mediante el comando:<br>
    `docker compose -f docker-compose.prod.yml up -d --build`
 
 #### API REST
