@@ -27,23 +27,23 @@ Esta aplicación aprovecha varias herramientas y tecnologias clave como:
 #### Ambiente Maquina local
 
 1. En el archivo `.env` cambiar las variables:
-   **STAGE**=DEV
-   **SYNCRONIZE**=true
-   **POSTGRES_HOST**=localhost
+   - **STAGE**=DEV
+   - **SYNCRONIZE**=true
+   - **POSTGRES_HOST**=localhost
 2. Comentar todo el bloque **backend** del archivo `docker-compose.yml`
 3. Levantar los contenedores de base de datos con: `docker compose up -d build`
 
 #### Ambiente Desarrollo
 
 1. En el archivo `.env` cambiar las variables:
-   **STAGE**=DEV
-   **SYNCRONIZE**=true
+   - **STAGE**=DEV
+   - **SYNCRONIZE**=true
 
 #### Ambiente Producción
 
 1. En el archivo `.env` cambiar las variables:
-   **STAGE**=PROD
-   **SYNCRONIZE**=false
+   - **STAGE**=PROD
+   - **SYNCRONIZE**=false
 
 #### Contenedores - Desarrollo
 
